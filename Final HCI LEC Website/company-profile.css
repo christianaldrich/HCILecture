@@ -1,0 +1,242 @@
+.navbar{
+    width: 100%;
+    background-color: #964B00;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    font-size: 20px;
+}
+
+nav ul li{
+   
+    list-style-type: none;
+    display: inline-block;
+    padding:0 0.5rem;
+    font-weight: 100;
+}
+
+nav ul li a {
+    font-family: 'Sanchez', serif;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #f1e062;
+    transition: 0.6s ease-in-out;
+}
+
+.right-title {
+    flex-direction: column;
+    padding: 1%;
+    font-weight: 800;
+    
+    text-align: right;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 2rem;
+}
+
+.right-title h1{
+    font-size: 40px;
+    flex-direction: row-reverse;
+    padding-bottom: 3%;
+    font-weight: lighter;
+    letter-spacing: 0.15rem;
+    padding-top: 2%;
+}
+
+.right-title-title{
+    display: flex;
+    text-align: center;
+    flex-direction: row-reverse;
+}
+
+.right-title-title img{
+    padding: 1rem;
+    width: 13%;
+    height: auto;
+}
+
+.left-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 25px;
+    flex-direction: row;
+}
+
+.left-title-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 25px;
+}
+
+nav p{
+    font-weight: 100;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+span{
+    font-family: 'Inter', sans-serif;
+    font-size: 38px;
+    /* border: 1px solid #964B00; */
+    color: #ECE2FF;
+}
+
+.value_title{
+    position: absolute;
+    width: 480px;
+    height: 1028px;
+    left: -28px;
+    top: 217px;
+}
+
+.values{
+    position: absolute;
+    width: 989px;
+    height: 675px;
+    left: 451px;
+    top: 217px;
+
+    background: #E1DEE7;
+}
+
+.loyalty{
+    position: absolute;
+width: 401px;
+height: 156px;
+left: 498px;
+top: 344px;
+}
+
+.team-work{
+    position: absolute;
+width: 401px;
+height: 160px;
+left: 498px;
+top: 517px;
+}
+
+.proactive{
+    position: absolute;
+width: 400.44px;
+height: 152.72px;
+left: 498px;
+top: 693px;
+}
+
+.respect{
+    position: absolute;
+width: 449px;
+height: 156px;
+left: 946px;
+top: 344px;
+}
+
+.img-gedung{
+    position: absolute;
+width: 988px;
+height: 382px;
+left: 452px;
+bottom: 1103px;
+}
+
+.team-desc{
+    position: absolute;
+width: 761.46px;
+height: 147px;
+left: 98.54px;
+top: 172px;
+}
+
+.aldrich{
+    position: absolute;
+width: 240px;
+height: 151px;
+left: 100px;
+top: 352px;
+}
+
+.angel{
+    position: absolute;
+width: 240px;
+height: 151px;
+left: 366px;
+top: 352px;
+}
+
+.harvey{
+    position: absolute;
+width: 240px;
+height: 151px;
+left: 628px;
+top: 352px;
+}
+
+.michael{
+    position: absolute;
+width: 240px;
+height: 151px;
+left: 220px;
+top: 694px;
+}
+
+.steven{
+    position: absolute;
+width: 240px;
+height: 151px;
+left: 525px;
+top: 694px;
+}
+
+.company-awards{
+    position: absolute;
+width: 494px;
+height: 1117px;
+left: 946px;
+top: 1245px;
+
+background: #964B00;
+mix-blend-mode: multiply;
+opacity: 0.5;
+}
+
+.comp-title{
+    position: absolute;
+width: 417px;
+height: 215px;
+left: 1103px;
+top: 1484px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 144.26%;
+/* or 65px */
+text-align: center;
+letter-spacing: 0.015em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.award-img{
+    position: absolute;
+width: 478px;
+height: 285px;
+left: 829px;
+top: 1538px;
+}
+
